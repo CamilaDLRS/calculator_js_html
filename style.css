@@ -1,0 +1,38 @@
+.calculator {
+  width: 500px;
+  max-width: 500px;
+  position: relative;
+  margin: 100px auto;
+  grid: 1fr;
+}
+
+.calculator button {
+  color: blue;
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  font-size: 70px;
+  margin-bottom: 2px;
+}
+
+.calculator button#resultCalc {
+  width: 308px;
+}
+
+.calculator button:hover {
+  color: aqua;
+}
+
+.calculator button:active {
+  background-color: white;
+}
+
+.display {
+  border: 6px solid black;
+  margin-bottom: 2px;
+  background-color: antiquewhite;
+  width: 400px;
+  height: 100px;
+  font-size: 40px;
+  text-align: right;
+}
